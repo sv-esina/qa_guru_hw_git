@@ -9,6 +9,5 @@ public class Main {
         System.out.printf("Hello and welcome to QA.GURU!");
         System.out.println();
         System.out.println("Let me introduce my home work");
-
         }
     }

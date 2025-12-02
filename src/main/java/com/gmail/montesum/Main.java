@@ -1,13 +1,12 @@
 package com.gmail.montesum;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+private static String msg="Hello and welcome to HW QA.GURU!"
+    
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome to HW QA.GURU!");
-
-
+        System.out.printf(getMessage());
         }
+private static String getMessage() {
+    return msg;
+}
     }

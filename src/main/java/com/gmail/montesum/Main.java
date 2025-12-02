@@ -1,7 +1,7 @@
 package com.gmail.montesum;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+private static String msg="Hello and welcome to HW QA.GURU!"
+    
 public class Main {
     public static void main(String[] args) {
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
@@ -10,4 +10,7 @@ public class Main {
         System.out.println();
         System.out.println("Let me introduce my home work");
         }
+private static String getMessage() {
+    return msg;
+}
     }
